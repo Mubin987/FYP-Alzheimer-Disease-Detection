@@ -27,7 +27,7 @@ app.add_middleware(
 UPLOAD_DIR = "./uploads/"
 LOCAL_MODEL_PATH = "./model/best_model_20250514_140846.pth"
 CACHE_MODEL_PATH = os.path.join(tempfile.gettempdir(), "best_model_20250514_140846.pth")
-MODEL_URL = "https://drive.google.com/uc?export=download&id=1Sy-KksqZBnaG06riYL1H00ET-cirrnKp"
+MODEL_URL = os.getenv("MODEL_URL")
 
 # Ensure the upload directory exists
 os.makedirs(UPLOAD_DIR, exist_ok=True)
