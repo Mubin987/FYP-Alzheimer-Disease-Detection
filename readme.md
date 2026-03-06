@@ -155,7 +155,7 @@ Preprocessed 3D MRI vector dataset available on Kaggle:
 
 Muhammad Mubin Farid. (2026).  
 **3D MRI ADNI Vector dataset for Alzheimer Detection** [Data set]. Kaggle.  
-https://doi.org/10.34740/KAGGLE/DS/9506069  
+https://doi.org/10.34740/kaggle/dsv/15073464 
 
 ---
 
